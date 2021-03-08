@@ -1,0 +1,53 @@
+--------------------------------------------------------------------------------
+CREAR EL REPOSITORIO Y CONFIGURARLO
+--------------------------------------------------------------------------------
+-Crear repositorio: 
+	> Desde Github
+
+-Inicializar un repositorio desde un proyecto existente:
+	> git init en la carpeta del proyecto.
+
+-Elegimos lo que queremos subir de inicio:
+	> git add * o ruta del archivo/directorio concreto
+
+-Hacemos el commit inicial:
+	> git commit -m "Primer commit"
+
+-Elegimos el repositorio de GitHub que vamos a usar:
+	> git remote add origin https://github.com/Dani-Delgado/Pruebas
+
+-Hacemos el push inicial:
+	> git push -u origin master
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+CLONAR UN REPOSITORIO
+--------------------------------------------------------------------------------
+-Clonar un repositorio existente:
+	> git clone https://github.com/blabla/blabla
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+ADD, COMMIT Y PUSH
+--------------------------------------------------------------------------------
+-Para actualizar el repositorio primero hacemos un add:
+	> git add * o ruta del archivo/directorio concreto
+
+-Luego hacemos un commit:
+	> git commit -m "Prueba"
+
+-Y final mente hacemos el push
+	> git push
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+CREAR Y USAR BRANCHS
+--------------------------------------------------------------------------------
+-Para crear un Branch hacemos:
+	> git branch nombreBranch
+
+-Para usar un Branc hacemos:
+	> git checkout nombreBranch
